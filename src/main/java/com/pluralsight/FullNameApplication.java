@@ -1,6 +1,5 @@
 package com.pluralsight;
 
-import java.security.Key;
 import java.util.Scanner;
 
 public class FullNameApplication {
@@ -17,6 +16,7 @@ public class FullNameApplication {
         System.out.println("Your full name is: ");
         System.out.println(firstName.trim() + " " + middleName.trim() + " " + lastName.trim() + " " + suffix);
         Keyboard.close();
+
 
 
 
